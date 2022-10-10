@@ -1,4 +1,4 @@
-.main {
+main {
     background-color: #083b4c;
 }
 
@@ -14,18 +14,18 @@ h1 {
     width: 100px;
 }
 
-.Lorem {
+.col.Lorem {
     background-color: #48D1CC;
 }
 
-.Ipsum {
+.col.Ipsum {
     background-color: #FF69B4;
 }
 
-.LoremIpsum {
+.col.LoremIpsum {
     background-color: #663399;
 }
 
-.ms-bg {
+.row > div {
     background-color: #F0E68C;
 }

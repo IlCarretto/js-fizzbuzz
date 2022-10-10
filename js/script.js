@@ -19,7 +19,6 @@ for (let i = 1; i <= 100; i++) {
         iResult = "Ipsum";
     } else {
         iResult = i;
-        color = "ms-bg";
     }
     console.log(iResult);
 
@@ -30,6 +29,6 @@ for (let i = 1; i <= 100; i++) {
     // row.append(col);
     
     // Inner HTML (2 option)
-    const col = `<div class="col square ${color} d-flex align-items-center justify-content-center ${iResult}">${iResult}</div>`
+    const col = `<div class="col square d-flex align-items-center justify-content-center ${iResult}">${iResult}</div>`
     row.innerHTML += col;
 }
