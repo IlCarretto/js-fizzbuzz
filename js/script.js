@@ -21,7 +21,14 @@ for (let i = 1; i <= 100; i++) {
         iResult = i;
     }
     console.log(iResult);
-    // Inner HTML
-    const col = `<div class="col">${iResult}</div>`
-    row.innerHTML += col;
+
+    // Create element (1 option)
+    const col = document.createElement("div");
+    col.classList.add("col");
+    col.innerHTML = iResult;
+    row.append(col);
+    
+    // Inner HTML (2 option)
+    // const col = `<div class="col">${iResult}</div>`
+    // row.innerHTML += col;
 }
