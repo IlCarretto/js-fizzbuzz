@@ -1,0 +1,31 @@
+.main {
+    background-color: #083b4c;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 3rem 0;
+    color: white;
+}
+
+.square {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.Lorem {
+    background-color: #48D1CC;
+}
+
+.Ipsum {
+    background-color: #FF69B4;
+}
+
+.LoremIpsum {
+    background-color: #663399;
+}
+
+.i {
+    background-color: #F0E68C;
+}

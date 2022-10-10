@@ -17,18 +17,17 @@ for (let i = 1; i <= 100; i++) {
     } else if (i % 5 === 0 ) {
         iResult = "Ipsum";
     } else {
-        // ALTRIMENTI memorizzo numero;
         iResult = i;
     }
     console.log(iResult);
 
     // Create element (1 option)
-    const col = document.createElement("div");
-    col.classList.add("col");
-    col.innerHTML = iResult;
-    row.append(col);
+    // const col = document.createElement("div");
+    // col.classList.add("col");
+    // col.innerHTML = iResult;
+    // row.append(col);
     
     // Inner HTML (2 option)
-    // const col = `<div class="col">${iResult}</div>`
-    // row.innerHTML += col;
+    const col = `<div class="col square d-flex align-items-center justify-content-center ${iResult}">${iResult}</div>`
+    row.innerHTML += col;
 }
