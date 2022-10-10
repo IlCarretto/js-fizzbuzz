@@ -2,6 +2,8 @@
 // ma che per i multipli di 3 stampi “Lorem” al posto del numero e per i multipli di 5 stampi “Ipsum”.
 // Per i numeri che sono sia multipli di 3 che di 5 stampi “LoremIpsum”.
 
+const row = document.querySelector(".row");
+
 for (let i = 1; i <= 100; i++) {
     // memorizzo il numero
     let iResult = "";
@@ -19,14 +21,7 @@ for (let i = 1; i <= 100; i++) {
         iResult = i;
     }
     console.log(iResult);
+    // Inner HTML
+    const col = `<div class="col">${iResult}</div>`
+    row.innerHTML += col;
 }
-
-for (let i = 0; i <= 100; i++) {
-    // Se numero è pari, memorizzo pari
-    // Altrimenti memorizzo dispari
-    let pariDispari = "";
-    if (i % 2 === 0) {
-      pariDispari = "pari";
-    } else {
-      pariDispari = "dispari";
-    }}
